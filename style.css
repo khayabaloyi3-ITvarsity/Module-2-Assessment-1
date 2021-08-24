@@ -131,7 +131,7 @@ a.info-box{
 }
 
 #info-box-full{
-      background-color : rgba(255, 55,100, .8) ;
+      background-color : rgba(255, 255,220, .8) ;
       width   : 90%;
       display : block;
       margin  : auto;
@@ -156,16 +156,18 @@ a.info-box{
 img.info-box-weather-icon{
      height : 30px;
      width  : 30px;
-     margin : 10px;
+     margin : 5px;
      float  :left; 
+     background-color: white;
+   
 }
 
 h1.info-box-weather-icon{
-     font-size  : 65px;
+     font-size  : 30px;
      font-weight: 200;
      padding    : 0;
      margin     : 0;
-}
+     
 
 /*================= feedback =============*/
 
@@ -188,7 +190,7 @@ textarea{
       background-color: forestgreen;
       text-decoration : none;
       text-align  : center;
-      color       : white;
+      color       : blue;
       font-size   : 16px;
       font-weight : 600;
       margin : 12px 0;
